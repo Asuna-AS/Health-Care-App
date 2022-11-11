@@ -12,7 +12,7 @@ const Navbar = () => {
 
     const menu = [
         { id: 1, text: 'Home', to: '/' },
-        { id: 2, text: 'Dashboard', to: '/dashboard' },
+        { id: 2, text: 'Blogs', to: '/blogs' },
         { id: 3, text: 'Checkup', to: '/checkup' },
         { id: 4, text: 'Hospitals', to: '/hospitals' },
         { id: 5, text: 'Contact', to: '/contact' },

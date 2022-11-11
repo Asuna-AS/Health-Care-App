@@ -6,7 +6,7 @@ import Button from '../components/Form/Button'
 import GoogleSignIn from '../components/Form/GoogleSignIn'
 import TextField from '../components/Form/TextField'
 import useAuth from '../hooks/useAuth'
-
+import su from "../signup.png"
 const SignUpScreen = () => {
     const [userInput, setUserInput] = useState({
         name: '',
@@ -15,7 +15,6 @@ const SignUpScreen = () => {
         password: '',
     })
     const { signUpUser } = useAuth()
-
     //form inputs
     const Inputs = [
         { id: 1, type: "text", placeholder: "Name", value: `${userInput.name}`, name: 'name' },
@@ -33,7 +32,6 @@ const SignUpScreen = () => {
                 [name]: value
             }
         })
-
     }
     //handle submit form 
     const handleSubmit = async (e) => {
@@ -42,11 +40,11 @@ const SignUpScreen = () => {
     }
 
     return (
-        <main className="h-screen w-full py-36">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 pt-14">
+        <main className="h-screen w-full py-20 pb-10">
+            <div className="grid grid-cols-1 md:grid-cols-2">
                 {/* form  */}
                 <Bounce left>
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center pb-16">
                         {/* logo  */}
                         {/* sign up form  */}
                         <form className="bg-white w-96 mt-6 p-4 rounded-lg shadow-lg" onSubmit={handleSubmit}>
@@ -62,20 +60,18 @@ const SignUpScreen = () => {
                                     />
                                 ))}
                             </div>
-                            <Button text="Sign Up" />
-                            <Link to="/signin">
+                            <Button text ="Sign Up" />
+                            <Link to ="/signin">
                                 <p className="text-base text-primary text-center my-6 hover:underline">Already have an account ?</p>
                             </Link>
-
                             <GoogleSignIn text="Sign Up With Google" />
                         </form>
                     </div>
                 </Bounce>
-
                 {/* imagee  */}
                 <Bounce right>
                     <div className="hidden md:flex lg:flex flex-col justify-center items-center w-full h-screen">
-                        <img className="w-4/4 mx-auto" src="../../assets/signup.png" alt="signup" />
+                        <img className="pr-32" src={su} alt="signup" />
                     </div>
                 </Bounce>
             </div>

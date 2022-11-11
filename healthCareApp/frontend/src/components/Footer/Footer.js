@@ -21,13 +21,15 @@ const Footer = () => {
     return (
         <Fade left>
         <footer className="text-gray-600 poppins bg-gray-100">
-            <div className="max-w-screen-xl px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div className="max-w-screen-xl px-5 py-16 mx-auto flex items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <NavBrand />
                 </div>
                 <div className="flex-grow flex justify-end flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="poppins text-gray-900 text-base mb-3 font-semibold">Working Hours</h2>
+                        <p>9 AM - 9 PM</p>
+                        <p>Sat - Sun</p>
                         <nav className="list-none mb-10 flex flex-col space-y-2">
                             {/* list  */}
                             {
@@ -39,6 +41,14 @@ const Footer = () => {
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="poppins text-gray-900 text-base mb-3 font-semibold">Services</h2>
+                        <p>
+                            <ul className='list-disc'>
+                                <li>Heart Diesases</li>
+                                <li>Diabetes</li>
+                                <li>Brain Tumor</li>
+                                <li>Multiple Diseases</li>
+                            </ul>
+                        </p>
                         <nav className="list-none mb-10 flex flex-col space-y-2">
                             {/* list  */}
                             {
@@ -50,6 +60,14 @@ const Footer = () => {
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="poppins text-gray-900 text-base mb-3 font-semibold">Contact</h2>
+                        <p>
+                            <ul className='list-disc'>
+                                <li>Arunim Singhal</li>
+                                <li>Priya Sharma</li>
+                                <li>Anukool</li>
+                                <li>Prasad</li>
+                            </ul>
+                        </p>
                         <nav className="list-none mb-10 flex flex-col space-y-2">
                             {/* list  */}
                             {
@@ -62,11 +80,11 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className="bg-green-500">
+            <div className="bg-blue-500">
                 <div className="max-w-screen-xl mx-auto py-4 px-5 flex flex-wrap flex-col justify-center sm:flex-row">
-                    {/* <p className="text-white text-sm text-center sm:text-left">© 2021 Developed by —
-                        <a href="https://github.com/19smabtahinoot" rel="noopener noreferrer" className="text-white ml-1" target="_blank">S.M.Abtahi Noor</a>
-                    </p> */}
+                    <p className="text-white text-sm text-center sm:text-left">© Health Care App
+                        <a href="https://github.com/19smabtahinoot" rel="noopener noreferrer" className="text-white ml-1" target="_blank"></a>
+                    </p>
                 </div>
             </div>
         </footer>

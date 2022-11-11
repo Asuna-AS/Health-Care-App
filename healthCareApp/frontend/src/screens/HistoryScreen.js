@@ -16,8 +16,8 @@ const HistoryScreen = () => {
             {/* heading  */}
             <Bounce left>
                 <div className="flex flex-col items-center space-x-2 pb-4">
-                    <h1 className="text-gray-700 poppins text-3xl">Our {" "} <span className="text-green-500 font-semibold select-none">History</span></h1>
-                    <div className="bg-green-500 flex items-center justify-center w-16 h-1 mt-2 rounded-full"></div>
+                    <h1 className="text-gray-700 poppins text-3xl">Our {" "} <span className="text-blue-500 font-semibold select-none">Hospitals</span></h1>
+                    <div className="bg-blue-500 flex items-center justify-center w-16 h-1 mt-2 rounded-full"></div>
                 </div>
                 <div className="flex flex-col min-w-full rounded-lg overflow-hidden shadow-green-500/50 md:shadow-xl md:shadow-green-500">
                     {/* <VerticalTimeline>
@@ -52,7 +52,7 @@ const HistoryScreen = () => {
                             </h1>
                         </VerticalTimelineElement>
                     </VerticalTimeline> */}
-                    <VerticalTimeline lineColor='#10b981'>
+                    {/* <VerticalTimeline lineColor='#10b981'>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             date="2006"
@@ -133,7 +133,7 @@ const HistoryScreen = () => {
                             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                             icon={StarIcon}
                         />
-                    </VerticalTimeline>
+                    </VerticalTimeline> */}
                     {/* <table className="min-w-full leading-normal"> */}
                         {/* 2006 </td></tr>
 
@@ -157,7 +157,7 @@ const HistoryScreen = () => {
 
                         
                 </div>
-                <div className="flex flex-row min-w-full shadow-lg rounded-lg py-12 pt-4 border-2 border-green-300 align-content-center pl-24">
+                {/* <div className="flex flex-row min-w-full shadow-lg rounded-lg py-12 pt-4 border-2 border-green-300 align-content-center pl-24">
                     <img src="https://lucentbiotech.com/wp-content/uploads/2020/06/Untitled-3-1.jpg" height={200} width={200}>
                     </img>
                     <img src={A1} height={200} width={200}>
@@ -168,7 +168,7 @@ const HistoryScreen = () => {
                     </img>
                     <img src={A4} height={200} width={200}>
                     </img>
-                </div>
+                </div> */}
 
             </Bounce>
         </section>

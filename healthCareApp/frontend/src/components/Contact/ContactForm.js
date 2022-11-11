@@ -3,7 +3,6 @@ import Bounce from 'react-reveal/Bounce';
 import TextField from '../Form/TextField';
 
 const ContactForm = () => {
-
     //form inputs
     const Inputs = [
         { id: 1, type: "text", placeholder: "Full Name" },
@@ -24,17 +23,15 @@ const ContactForm = () => {
                 </Bounce>
 
             </div>
-
             {/* text field  */}
             <Bounce left>
                 <div className="mt-6">
                     <textarea placeholder="Your Message" className="w-full px-4 py-3 h-36 rounded-lg ring-blue-200 focus:ring-4 focus:outline-none transition duration-300 border border-gray-300 resize-none"></textarea>
                 </div>
-                <button type="submit" className="btn-primary bg-green-500 px-6 py-3 w-36 mt-6 hover:bg-yellow-300">
+                <button type="submit" className="btn-primary bg-blue-500 px-6 py-3 w-36 mt-6 hover:bg-red-500">
                     Submit
                 </button>
             </Bounce>
-
         </form>
 
     )

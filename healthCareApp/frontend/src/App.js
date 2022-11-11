@@ -31,7 +31,7 @@ const App = () => {
             <PublicRoute path="/signup"><SignUpScreen /></PublicRoute>
             <PublicRoute path="/signin"><SignInScreen /></PublicRoute>
             <PrivateRoute exact path="/services/:title"><ServicesDetailScreen /></PrivateRoute>
-            <Route exact path="/dashboard/"><ProductsScreen /></Route>
+            <Route exact path="/blogs/"><ProductsScreen /></Route>
             <Route exact path="/hospitals/"><HistoryScreen /></Route>
             <PrivateRoute exact path="/products/:title"><ProductDetailScreen /></PrivateRoute>
             <PrivateRoute exact path="/orders"><OrderScreen /></PrivateRoute>
