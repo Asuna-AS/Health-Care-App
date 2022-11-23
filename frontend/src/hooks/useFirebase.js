@@ -54,7 +54,7 @@ const useFirebase = () => {
                 setUser(res.user);
                 swal("Sign in Successful!", "Welcome back !", "info")
                 history.push('/');
-                                    window.scrollTo(0, 100);
+                window.scrollTo(0, 100);
 
             })
             .catch(err => swal("Something went wrong!", `${err.message}`, "error")).finally(() => setIsLoading(false));

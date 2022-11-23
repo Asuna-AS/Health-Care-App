@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import AuthProvider from './contexts/AuthProvider';
@@ -20,7 +20,7 @@ import CheckupScreen from './screens/CheckupScreen';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AuthProvider>
         <OrderProvider>
           <Navbar />
@@ -40,7 +40,7 @@ const App = () => {
           <Footer />
         </OrderProvider>
       </AuthProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

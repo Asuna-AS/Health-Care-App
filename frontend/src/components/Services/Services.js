@@ -9,16 +9,13 @@ import useFetch from '../../hooks/useFetch';
 import Heading from '../Heading';
 import Service from './Service';
 SwiperCore.use([Navigation, Pagination, Autoplay]);
-
-
 const Services = () => {
     const [data] = useFetch('services');
-
+    console.log(data)
     return (
         <section className="max-w-screen-xl mx-auto px-6 py-6 pb-24">
             {/* heading  */}
             <Heading title="Services" />
-
             {/* services  */}
             <Swiper
                 className="mySwiper py-12"
@@ -59,5 +56,4 @@ const Services = () => {
         </section>
     )
 }
-
 export default Services
