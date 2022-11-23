@@ -1,7 +1,7 @@
 {
   "name": "Health-Care-App",
   "version": "0.1.0",
-  "homepage": "https://Asuna-AS.github.io/Health-care-App",
+  "homepage": "https://Asuna-AS.github.io/Health-Care-App",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
