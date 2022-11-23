@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Health-care-App/static/css/main.1d6c9b4a.chunk.css",
-    "main.js": "/Health-care-App/static/js/main.4cfd744d.chunk.js",
-    "main.js.map": "/Health-care-App/static/js/main.4cfd744d.chunk.js.map",
+    "main.js": "/Health-care-App/static/js/main.66d9705d.chunk.js",
+    "main.js.map": "/Health-care-App/static/js/main.66d9705d.chunk.js.map",
     "runtime-main.js": "/Health-care-App/static/js/runtime-main.dea39747.js",
     "runtime-main.js.map": "/Health-care-App/static/js/runtime-main.dea39747.js.map",
     "static/css/2.2ae1d27d.chunk.css": "/Health-care-App/static/css/2.2ae1d27d.chunk.css",
-    "static/js/2.de3e26fd.chunk.js": "/Health-care-App/static/js/2.de3e26fd.chunk.js",
-    "static/js/2.de3e26fd.chunk.js.map": "/Health-care-App/static/js/2.de3e26fd.chunk.js.map",
+    "static/js/2.12aee0d2.chunk.js": "/Health-care-App/static/js/2.12aee0d2.chunk.js",
+    "static/js/2.12aee0d2.chunk.js.map": "/Health-care-App/static/js/2.12aee0d2.chunk.js.map",
     "index.html": "/Health-care-App/index.html",
     "static/css/2.2ae1d27d.chunk.css.map": "/Health-care-App/static/css/2.2ae1d27d.chunk.css.map",
     "static/css/main.1d6c9b4a.chunk.css.map": "/Health-care-App/static/css/main.1d6c9b4a.chunk.css.map",
-    "static/js/2.de3e26fd.chunk.js.LICENSE.txt": "/Health-care-App/static/js/2.de3e26fd.chunk.js.LICENSE.txt",
+    "static/js/2.12aee0d2.chunk.js.LICENSE.txt": "/Health-care-App/static/js/2.12aee0d2.chunk.js.LICENSE.txt",
     "static/media/Heartcheckup.959c892f.png": "/Health-care-App/static/media/Heartcheckup.959c892f.png",
     "static/media/StarIcon.000aae00.png": "/Health-care-App/static/media/StarIcon.000aae00.png",
     "static/media/award-1.1ffaa875.jpg": "/Health-care-App/static/media/award-1.1ffaa875.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.dea39747.js",
     "static/css/2.2ae1d27d.chunk.css",
-    "static/js/2.de3e26fd.chunk.js",
+    "static/js/2.12aee0d2.chunk.js",
     "static/css/main.1d6c9b4a.chunk.css",
-    "static/js/main.4cfd744d.chunk.js"
+    "static/js/main.66d9705d.chunk.js"
   ]
 }
