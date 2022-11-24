@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Health-Care-App/static/css/main.cebc3ef1.chunk.css",
-    "main.js": "/Health-Care-App/static/js/main.64cdba2a.chunk.js",
-    "main.js.map": "/Health-Care-App/static/js/main.64cdba2a.chunk.js.map",
+    "main.js": "/Health-Care-App/static/js/main.3d1ba6a2.chunk.js",
+    "main.js.map": "/Health-Care-App/static/js/main.3d1ba6a2.chunk.js.map",
     "runtime-main.js": "/Health-Care-App/static/js/runtime-main.40dcf3a0.js",
     "runtime-main.js.map": "/Health-Care-App/static/js/runtime-main.40dcf3a0.js.map",
     "static/css/2.2ae1d27d.chunk.css": "/Health-Care-App/static/css/2.2ae1d27d.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.2ae1d27d.chunk.css",
     "static/js/2.e13cce4b.chunk.js",
     "static/css/main.cebc3ef1.chunk.css",
-    "static/js/main.64cdba2a.chunk.js"
+    "static/js/main.3d1ba6a2.chunk.js"
   ]
 }
