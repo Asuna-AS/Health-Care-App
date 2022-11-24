@@ -8,7 +8,7 @@ const HomeScreen = () => {
     return (
         <main className="w-full py-4">
             <Banner/>
-            <Services />
+            {/* <Services /> */}
         </main>
     )
 }
