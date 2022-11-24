@@ -5,6 +5,7 @@ import Button from '../Form/Button';
 const Service = (props) => {
     const { title, icon, description } = props;
     const history = useHistory();
+    console.log(history)
     return (
         <div className="flex flex-col justify-center items-center space-y-3 bg-white border border-gray-200 hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-105 p-4 box-border rounded-xl">
             <img className="w-24" src={icon} alt={title} />

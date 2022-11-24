@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-
+import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
     apiKey: "AIzaSyDo51f8iV709wMAF33M1fXWJPsxu8q-5ic",
     authDomain: "health-care-app-9df12.firebaseapp.com",
@@ -14,5 +14,6 @@ const firebaseConfig = {
 const initializeAuthentication = () => {
     return initializeApp(firebaseConfig)
 }
-
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
 export default initializeAuthentication;
